@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <script>
+            
+       var weight = 1000; // given for the weight grams
+       document.write("click the button"  + weight + "g" + "will change the weight scale");
+ 
+
+        </script>
+
+    </div>
+
+    <div>
+       
+        <br>    
+        <div class="container">
+        
+        
+        <p id="display"> </p>
+
+            <button type="button" onclick="var weight=1000; var kilo = 1000; document.getElementById('display').innerHTML = weight/kilo + 'kg' ;    ">kilo</button>
+
+        </div>
+
+        <br>    
+        <div class="container">
+        
+        
+        <p id="display"> </p>
+
+            <button type="button" onclick="var weight=1000; var mill = 1000; document.getElementById('display').innerHTML = weight*mill + 'mg' ;    ">miligram</button>
+
+        </div>
+</body>
+</html>
